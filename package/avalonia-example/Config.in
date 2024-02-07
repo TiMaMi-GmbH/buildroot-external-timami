@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AVALONIA_EXAMPLE
+	bool "avalonia-example"
+	depends on BR2_PACKAGE_DOTNET_RUNTIME || BR2_PACKAGE_DOTNET_RUNTIME_ASP_NET
+	help
+	  Example for Avalonia UI framebuffer application

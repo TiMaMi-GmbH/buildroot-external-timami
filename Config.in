@@ -1,0 +1,3 @@
+source "$BR2_EXTERNAL_TIMAMI_NET_PATH/package/dotnet-runtime/Config.in"
+source "$BR2_EXTERNAL_TIMAMI_NET_PATH/package/dotnet-runtime-asp-net/Config.in"
+source "$BR2_EXTERNAL_TIMAMI_NET_PATH/package/avalonia-example/Config.in"
